@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock News Collector | Jarvis</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            max-width: 600px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            color: #94a3b8;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .markets {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #60a5fa, #a78bfa);
+            color: #0f172a;
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+        }
+        .repo-link {
+            display: block;
+            margin-top: 20px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 0.95em;
+        }
+        .repo-link:hover { color: #60a5fa; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="markets">📊</div>
+        <h1>Stock News Collector</h1>
+        <p>跨市場股市新聞自動收集系統<br>覆蓋美國、日本、韓國、歐洲股票市場</p>
+        <a class="btn" href="/snc/">🚀 查看即時新聞</a>
+        <a class="repo-link" href="https://github.com/cjarvishk/stock-news-collector" target="_blank">
+            🔗 GitHub 倉庫 →
+        </a>
+    </div>
+</body>
+</html>
